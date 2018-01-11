@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.alanjet.videorecordertest.PermissActivity"
+    android:background="@color/alpha_overlay">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:text="你只闻到了我的香水，没有看到我的汗水。你有你的规则，我有我的选择。你否定我的现在，我决定我的将来。你嘲笑我一无所有不配去爱，我可怜你总是等待。你可以轻视我们的年轻，我们证明这是谁的时代。梦想是注定孤独的旅行，路上少不了质疑和嘲笑，但那又怎样，哪怕遍体鳞伤，也要活的漂亮"
+        android:textSize="14sp"
+        android:textColor="@color/white_overlay"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>
